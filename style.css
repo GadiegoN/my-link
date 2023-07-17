@@ -9,9 +9,14 @@ body {
 }
 
 img {
-    border-radius: 20px;
+    border-radius: 50%;
     width: 320px;
     height: 320px;
+    border: 1px solid #FF6961;
+}
+
+img:hover {
+    border: 2px solid #EF7771;
 }
 
 h1 {
@@ -43,6 +48,11 @@ a {
     font-weight: bold;
 }
 
+a:hover {
+    background-color: #EF7771;
+    color: #CCC;
+}
+
 .container {
     width: 320px;
     text-align: center;
@@ -50,5 +60,11 @@ a {
 }
 
 footer {
+    margin-top: 2rem;
     color: #FFF;
+}
+
+strong {
+    color: #EF7771;
+    cursor: pointer;
 }
