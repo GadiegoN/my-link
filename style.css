@@ -9,7 +9,7 @@ body {
 }
 
 img {
-    border-radius: 50%;
+    border-radius: 9999px;
     width: 320px;
     height: 320px;
     border: 1px solid #FF6961;
@@ -64,7 +64,7 @@ footer {
     color: #FFF;
 }
 
-strong {
+.strong {
     color: #EF7771;
     cursor: pointer;
 }
