@@ -67,4 +67,5 @@ footer {
 .strong {
     color: #EF7771;
     cursor: pointer;
+    font-weight: bold;
 }
