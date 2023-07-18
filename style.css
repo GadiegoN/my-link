@@ -12,21 +12,26 @@ img {
     border-radius: 9999px;
     width: 320px;
     height: 320px;
-    border: 1px solid #FF6961;
 }
 
-img:hover {
-    border: 2px solid #EF7771;
+.gradient {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    width: 322px;
+    height: 322px;
+    background: linear-gradient(#13f78c, #0be6e6, #f700c5) padding-box;
 }
 
 h1 {
-    color: #FFF;
+    color: #13f78c;
     margin-top: 2rem;
     margin-bottom: .5rem
 }
 
 p {
-    color: #FFF;
+    color: #f700c5;
 }
 
 ul {
@@ -40,8 +45,8 @@ li {
 
 a {
     text-decoration: none;
-    color:#FFF;
-    background-color: #FF6961;
+    color: #000;
+    background-color: #0be6e6;
     padding: 15px;
     display: block;
     border-radius: 5px;
@@ -49,8 +54,8 @@ a {
 }
 
 a:hover {
-    background-color: #EF7771;
-    color: #CCC;
+    background-color: #13f78c;
+    color: #FFF;
 }
 
 .container {
@@ -65,7 +70,7 @@ footer {
 }
 
 .strong {
-    color: #EF7771;
+    color: #13f78c;
     cursor: pointer;
     font-weight: bold;
 }
