@@ -1,5 +1,8 @@
 :root {
-    --background-color: #000 ;
+    --background-color: #000;
+    --background-black: #000 ;
+    --background-gray: #1B1E23 ;
+    --background-white: #3B3C3C ;
     --color-primary: #13f78c;
     --color-secondary: #0be6e6;
     --color-accent: #f700c5;
@@ -10,7 +13,10 @@
 .light-theme {
     --background-color: #FFF;
     --color-text: #000;    
-    --color-link: #FFF;    
+    --color-link: #FFF;
+    --background-black: #CCC ;
+    --background-gray: #EEE ;
+    --background-white: #FFF ;  
 }
 
 * {
@@ -19,8 +25,10 @@
 }
 
 body {
-    background-color: var(--background-color) ;
+    background: linear-gradient(-45deg, var(--background-black), var(--background-gray),  var(--background-white));
     font-family: sans-serif;
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
 }
 
 img {
@@ -99,4 +107,17 @@ footer {
 .toogle img {
     width: 50px;
     height: 50px;
+}
+
+  
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
