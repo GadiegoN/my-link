@@ -28,7 +28,7 @@ body {
     background: linear-gradient(-45deg, var(--background-black), var(--background-gray),  var(--background-white));
     font-family: sans-serif;
     background-size: 400% 400%;
-    animation: gradient 5s ease infinite;
+    animation: animationgra 5s ease infinite;
 }
 
 img {
@@ -110,7 +110,7 @@ footer {
 }
 
   
-@keyframes gradient {
+@keyframes animationgra {
     0% {
         background-position: 0% 50%;
     }
